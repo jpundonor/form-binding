@@ -1,4 +1,7 @@
 <script>
+import chipImg from "../assets/chip.png";
+import visaImg from "../assets/visa.png";
+
 export default {
   name: "CreditCard",
   data() {
@@ -10,8 +13,8 @@ export default {
       owner: "",
       type: "",
       images: {
-        chipSrc: "/src/assets/chip.png",
-        visaSrc: "/src/assets/visa.png",
+        chipSrc: chipImg,
+        visaSrc: visaImg,
       },
     };
   },
