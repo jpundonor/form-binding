@@ -10,8 +10,8 @@ export default {
       owner: "",
       type: "",
       images: {
-        chipSrc: "./src/assets/chip.png",
-        visaSrc: "./src/assets/visa.png",
+        chipSrc: "/src/assets/chip.png",
+        visaSrc: "/src/assets/visa.png",
       },
     };
   },
